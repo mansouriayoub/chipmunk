@@ -1,0 +1,31 @@
+{
+  "name": "moroccan-chipmunk-mvp",
+  "version": "1.0.0",
+  "description": "Minimal Express+EJS+MongoDB storefront for Moroccan Chipmunk",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seed.js",
+    "import": "node scripts/import-products.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "ejs",
+    "mongodb",
+    "ecommerce"
+  ],
+  "author": "Eyup",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.9",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,126 @@
+/* Moroccan Chipmunk - Bootstrap Custom Theme */
+
+/* Color Palette Variables */
+:root {
+  --deep-tech-navy: #1B365D;
+  --fez-red: #A63A3A;
+  --circuit-blue: #49D1E4;
+  --chipmunk-tan: #E59866;
+  --clean-white: #FFFFFF;
+}
+
+/* Background Colors */
+.bg-deep-navy {
+  background-color: var(--deep-tech-navy) !important;
+}
+
+.bg-chipmunk-tan {
+  background-color: var(--chipmunk-tan) !important;
+}
+
+/* Text Colors */
+.text-deep-navy {
+  color: var(--deep-tech-navy) !important;
+}
+
+.text-fez-red {
+  color: var(--fez-red) !important;
+}
+
+.text-circuit-blue {
+  color: var(--circuit-blue) !important;
+}
+
+/* Button Styles */
+.btn-fez-red {
+  background-color: var(--fez-red);
+  border-color: var(--fez-red);
+  color: var(--clean-white);
+}
+
+.btn-fez-red:hover {
+  background-color: #8f2f2f;
+  border-color: #8f2f2f;
+  color: var(--clean-white);
+}
+
+.btn-circuit-blue {
+  background-color: var(--circuit-blue);
+  border-color: var(--circuit-blue);
+  color: var(--deep-tech-navy);
+}
+
+.btn-circuit-blue:hover {
+  background-color: #3ab8cc;
+  border-color: #3ab8cc;
+  color: var(--deep-tech-navy);
+}
+
+/* Navbar Logo */
+.navbar-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--circuit-blue);
+}
+
+/* Card Hover Effect */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Navbar Customization */
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--circuit-blue);
+}
+
+/* Badge Customization */
+.badge.bg-deep-navy {
+  background-color: var(--deep-tech-navy) !important;
+}
+
+/* Form Controls */
+.form-control:focus {
+  border-color: var(--circuit-blue);
+  box-shadow: 0 0 0 0.25rem rgba(73, 209, 228, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: var(--circuit-blue);
+  border-color: var(--circuit-blue);
+}
+
+/* Sticky Navbar */
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--deep-tech-navy);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--circuit-blue);
+}
