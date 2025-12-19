@@ -1,0 +1,19 @@
+{
+  "_id": {
+    "$oid": "69437c3756e46601ad48aa76"
+  },
+  "name": "Arduino Uno R3",
+  "slug": "arduino-uno-r3",
+  "category": "Microcontrollers",
+  "color": "Black",
+  "price": 299.99,
+  "imgUrl": "/images/Arduino_Uno_R3.png",
+  "desc": "The classic Arduino Uno R3 microcontroller board based on ATmega328P. Perfect for beginners and professionals alike with 14 digital I/O pins and 6 analog inputs.",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-18T03:59:51.884Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-18T05:53:48.804Z"
+  }
+}
