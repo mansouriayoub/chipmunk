@@ -176,6 +176,12 @@ app.get('/logout', (req, res) => {
     res.redirect('/');
 });
 
-app.listen(PORT, () => {
-    console.log(`✓ Server running on http://localhost:${PORT}`);
-});
+// Export the Express API
+module.exports = app;
+
+// Only listen if not running in Vercel (or other serverless environment)
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`✓ Server running on http://localhost:${PORT}`);
+    });
+}
